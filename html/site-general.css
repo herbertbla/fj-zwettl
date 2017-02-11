@@ -1,0 +1,191 @@
+/* CSS-Definitionsdatei, die Site-�bergreifende Stylesheets enth�lt */
+
+a:link
+{
+        font-family : Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        text-decoration : none;
+        font-size : 12pt;
+        color : #938C75;
+        background-color: transparent;
+}
+
+a:active
+{
+        font-family : Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        text-decoration : none;
+        font-size : 12pt;
+        color : #554F2C;
+        background-color: transparent;
+}
+a:hover
+{
+        font-family : Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        font-size : 12pt;
+        font-weight : normal;
+        font-style : normal;
+        color : #938C75;
+        background-color: transparent;
+}
+
+a:visited
+{
+        font-family : Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        font-size : 12pt;
+        text-decoration : none;
+         font-weight : normal;
+        color : #938C75;
+        background-color: transparent;
+}
+
+p {
+        font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        color:#463F41;
+        background-color: transparent;
+        line-height: 150%;
+        margin-bottom:1px;
+        margin-top:8px;
+}
+
+h1 {
+        font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        color:#463F41;
+        background-color: transparent;
+        line-height: 150%;
+        margin-bottom:1px;
+        margin-top:8px;
+}
+
+ul {
+        font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        color:#463F41;
+        background-color: transparent;
+        line-height: 140%;
+        list-style-type: disc;
+}
+
+
+
+#homeNav,#ferienwohungerdgeschossNav, #ferienwohungdachgeschossNav,#zweizimmerNav, #anreiselageNav{
+         font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+         font-size: 16px;
+         font-weight: normal;
+         font-style: normal;
+         color:#463F41;
+         background-color: transparent;
+         line-height: 100%;
+         margin-bottom:1px;
+         margin-top:8px;
+}
+#kontaktNav, #impressumNav,#linksNav {
+         font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+         font-size: 14px;
+         font-weight: normal;
+         font-style: normal;
+         color:#463F41;
+         background-color: transparent;
+         line-height: 100%;
+         margin-bottom:1px;
+         margin-top:8px;
+}
+/* header menu items - position */
+#homeNav {position: absolute; top:140px;  left:2px; color:#ff0000; }
+#ferienwohungerdgeschossNav {position: absolute; top:140px;  left:80px }
+#ferienwohungdachgeschossNav {position: absolute; top:140px;  left:230px }
+#zweizimmerNav {position: absolute; top:140px;  left:400px }
+#anreiselageNav {position: absolute; top:140px;  left:620px }
+
+/* text postions */
+#Text18LYR { position:absolute; visibility:inherit; top:5px; left:30px; width:430px; height:51px; z-index:2 }
+#ImpressumText { position:absolute; visibility:inherit; top:400px; left:33px; width:700px; height:51px; z-index:2 }
+
+/* line width/size */
+#HorizontaleLinie {
+         position:absolute;
+         left: 0px;
+         width: 400px;
+         size: 1px;
+}
+
+
+/* footer menu items - position */
+#kontaktNav {position: absolute; top:10px; left:2px}
+#impressumNav {position: absolute; top:10px; left:100px}
+#linksNav {position: absolute; top:10px; left:220px}
+
+/* Fotos */
+
+/* "Hauptbild" */
+#haus {position:absolute; left:465px; width:480px; height:410}
+
+/* Zwei Zimmer */
+
+#zweizischlafGross, #zweizikueGross,  #dscn1529Gross, #dscn1502Gross{ position:absolute; visibility:hidden; top:10px; left:50px; width:400px; height:300px; z-index:2 }
+#zweizischlafKlein { position:absolute;  left:0px; width:70px; height:70px;}
+#zweizikueKlein { position:absolute; left:90px; width:70px; height:70px;}
+#dscn1529Klein { position:absolute; left:180px; width:70px; height:70px;}
+#dscn1502Klein { position:absolute; left:270px; width:70px; height:70px;}
+
+/* Dachgeschoss */
+
+#dachgeschossBild1Gross, #dachgeschossBild2Gross, #dachgeschossBild3Gross, #dachgeschossBild5Gross { position:absolute; visibility:hidden; top:10px; left:50px; width:400px; height:300px; z-index:2 }
+#dachgeschossBild4Gross { position:absolute; visibility:hidden; top:10px; left:150px; width:200px; height:300px; z-index:2 }
+#dachgeschossBild1Klein { position:absolute;  left:0px; width:70px; height:70px;}
+#dachgeschossBild2Klein { position:absolute; left:90px; width:70px; height:70px;}
+#dachgeschossBild3Klein { position:absolute; left:180px; width:70px; height:70px;}
+#dachgeschossBild4Klein { position:absolute; left:270px; width:70px; height:70px;}
+#dachgeschossBild5Klein { position:absolute; left:360px; width:70px; height:70px;}
+#BilderDach    { position:absolute; top:350px; left:10px; }
+/* Erdgeschoss */
+#BilderErd{ position:absolute; top:350px; left:30px; }
+#erdgeschossBild1Gross, #erdgeschossBild2Gross,
+#erdgeschossBild3Gross, #erdgeschossBild4Gross { position:absolute; visibility:hidden; top:10px; left:50px; width:400px; height:300px;z-index:2}
+#erdgeschossBild1Klein { position:absolute; left:0px; width:70px; height:70px;}
+#erdgeschossBild2Klein { position:absolute; left:105px; width:70px; height:70px;}
+#erdgeschossBild3Klein { position:absolute; left:210px; width:70px; height:70px;}
+#erdgeschossBild4Klein { position:absolute; left:315px; width:70px; height:70px;}
+
+/* background pictures */
+
+#ferienwohungDachgeschossBody, #ferienwohungErdgeschossBody, #impressumBody,
+#kontaktBody, #linksBody, #homeBody {background-color:rgb(222,222,222);}
+#footerBody {background-image: url('../assets/images/BGUnten.jpg');}
+#headerBody {background-image: url('../assets/images/BGOben.jpg');}
+#leftBody {background-image: url('../assets/images/BGLinks.jpg');}
+#rightBody{background-image: url('../assets/images/BGRechts.jpg');}
+#cornerFooterBody {background-image: url('../assets/images/BGUnten.jpg');}
+#cornerHeaderBody {background-image: url('../assets/images/BGOben.jpg');}
+
+#logo {position: absolute; top:80px; left:2px; width:185px; height:26px}
+
+#preis {
+        font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        color:#463F41;
+        background-color: transparent;
+        line-height: 100%;
+        margin-bottom:1px;
+        margin-top:1px;
+        width: 400px;
+        border-style:solid; 
+        border-width:thin;
+        padding:1px;
+}
+
+#headerMob {
+		position: absolute; left: 300px;top:35px;
+		font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+}
