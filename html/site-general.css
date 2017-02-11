@@ -143,7 +143,7 @@ ul {
 #dachgeschossBild3Klein { position:absolute; left:180px; width:70px; height:70px;}
 #dachgeschossBild4Klein { position:absolute; left:270px; width:70px; height:70px;}
 #dachgeschossBild5Klein { position:absolute; left:360px; width:70px; height:70px;}
-#BilderDach    { position:absolute; top:350px; left:10px; }
+#BilderDach    { position:absolute; top:360px; left:10px; }
 /* Erdgeschoss */
 #BilderErd{ position:absolute; top:350px; left:30px; }
 #erdgeschossBild1Gross, #erdgeschossBild2Gross,
